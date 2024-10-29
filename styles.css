@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+#container {
+    margin: 20px; /* Margin for the container */
+    position: relative; /* Positioning context for pseudo-elements */
+    
+    
+}
+
+#container::before {
+    content: "Before Text"; /* Text to display before the container */
+    color: #f00; /* Red color */
+    font-size: 20px; /* Font size */
+    position: absolute; /* Positioning before content */
+    left: -10px; /* Adjust left position */
+    top: 10px; /* Adjust top position */
+}
+
+#container::after {
+    content: "After Text"; /* Text to display after the container */
+    color: #f00; /* Red color */
+    font-size: 20px; /* Font size */
+    position: absolute; /* Positioning after content */
+    right: -10px; /* Adjust right position */
+    bottom: 10px; /* Adjust bottom position */
+}
