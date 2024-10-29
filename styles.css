@@ -7,7 +7,7 @@
 }
 
 #container::before {
-    content: "Before Text"; /* Text to display before the container */
+    content: "Before Element"; /* Change to match the test */
     color: #f00; /* Red color */
     font-size: 20px; /* Font size */
     position: absolute; /* Positioning before content */
@@ -16,7 +16,7 @@
 }
 
 #container::after {
-    content: "After Text"; /* Text to display after the container */
+    content: "After Element"; /* Change to match the test */
     color: #f00; /* Red color */
     font-size: 20px; /* Font size */
     position: absolute; /* Positioning after content */
